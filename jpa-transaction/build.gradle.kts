@@ -32,6 +32,9 @@ dependencies {
     runtimeOnly("com.h2database:h2")
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
+
+    implementation("io.github.microutils:kotlin-logging-jvm:2.0.10")
+    implementation("org.slf4j:slf4j-api:1.7.30")
 }
 
 tasks.withType<KotlinCompile> {
